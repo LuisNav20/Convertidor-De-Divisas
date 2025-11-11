@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Convertidor de Divisas</h1>
+        <p>Descubre como cambia tu dinero</p>
+    </header>
+    <main class="container">
+        <section class="formulario">
+            <form id="formu">
+                <label for="cantidad">Cantidad en pesos mexicanos:</label>
+                <input id="cantidad" type="number" placeholder="Ejemplo:1000" required>
+                <label for="divisa">Convertir a:</label>
+                <select id="divisa" required>
+                <option value="USD">Dólares</option>
+                <option value="EUR">Euros</option>
+                <option value="JPY">Yenes</option>
+                <option value="LB">Libras</option>
+                </select>
+                <input type="submit" value="Convertir"></button>
+            </form>
+        </section>
+        <section class="resultado">
+            <h2>Resultado:</h2>
+            <p id="resultado"></p>
+        </section>
+    </main>
+    <script src="JS/miScript.js"></script>
+</body>
+
+</html>
